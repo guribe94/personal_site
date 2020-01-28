@@ -2,7 +2,7 @@
   "name": "personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.thegabrieluribe.com/",
+  "homepage": "https://thegabrieluribe.com/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.2.0",
