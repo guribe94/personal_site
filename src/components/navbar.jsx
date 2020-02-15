@@ -65,7 +65,7 @@ class Navbar extends React.Component{
         return (
             <nav className="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
                 <div className="container">
-                    <a className="navbar-brand js-scroll" href="#page-top"><img src={this.state.logo} alt="" style={{maxWidth: "100px"}}/></a>
+                    <a className="navbar-brand js-scroll" href="#page-top">{this.state.logo != NaN &&<img src={this.state.logo} alt="" style={{maxWidth: "100px"}}/>}</a>
                     <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
                     aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
                         <span></span>
@@ -82,9 +82,6 @@ class Navbar extends React.Component{
                         </li>
                         <li className="nav-item">
                             <a className="nav-link js-scroll" href="#resume">Resume</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link js-scroll" href="#work">Work</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link js-scroll" href="#contact">Contact</a>
